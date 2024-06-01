@@ -29,15 +29,17 @@ section {
 }
 .circle-image {
     color: #ffffff;
-    width:  50%; /* يمكن تغيير الحجم كما تريد */
-    height: 30%; /* يمكن تغيير الحجم كما تريد */
+    width:  500px; /* يمكن تغيير الحجم كما تريد */
+    height: 500px; /* يمكن تغيير الحجم كما تريد */
     border-radius: 50%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative ;
-    right: -39%;
+    top: 45px;
+    right: -47%;
+    
 
    
 
@@ -129,8 +131,19 @@ footer {
     color: rgb(201, 18, 18); /* لون الأيقونة عند التحويم */
 }
 
-@media  (min-width:375px) 
+@media  (max-width:512px) 
 {
+    .circle-image{
+        width:  136%; /* يمكن تغيير الحجم كما تريد */
+        height: 70%; /* يمكن تغيير الحجم كما تريد */
+        right: 25%;
+    }
+    .main h2 span{
+        font-size: 1.86em;
+    }
+
+}
+@media (width:375) {
     .circle-image{
         width:  135%; /* يمكن تغيير الحجم كما تريد */
         height: 70%; /* يمكن تغيير الحجم كما تريد */
@@ -139,9 +152,6 @@ footer {
     .main h2 span{
         font-size: 1.9em;
     }
-
-}
-@media () {
     
 }
 
