@@ -143,15 +143,5 @@ footer {
     }
 
 }
-@media (width:375) {
-    .circle-image{
-        width:  135%; /* يمكن تغيير الحجم كما تريد */
-        height: 70%; /* يمكن تغيير الحجم كما تريد */
-        right: 25%;
-    }
-    .main h2 span{
-        font-size: 1.9em;
-    }
-    
-}
+
 
