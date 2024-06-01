@@ -1,0 +1,131 @@
+html,body {
+   
+    font-family: 'Arial', sans-serif;
+}
+
+
+header {
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+section {
+    padding: 100px 0px;
+     
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: relative;
+  
+}
+.circle-image {
+    color: #ffffff;
+    width:  50%; /* يمكن تغيير الحجم كما تريد */
+    height: 30%; /* يمكن تغيير الحجم كما تريد */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative ;
+    right: -39%;
+
+   
+
+        
+}
+
+.circle-image img {
+    width: 100%;
+    height: auto;
+    display: block; /* يضمن عرضاً صحيحاً للصورة داخل الحاوية */
+}
+
+
+
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 2em;
+    font-weight: 600;
+    
+}
+
+
+
+    
+.main-btn {
+    color: #fff;
+    background-image: linear-gradient(to left, #5447b9, #0e87f8 ) ;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 60px;
+    transition: all 0.4s ease-out;
+}
+
+.main-btn:hover {
+    color: #fff;
+    background-image: linear-gradient(to left, #5447b9, #0e87f8 ) ;
+    transform: scale(1.1);
+}
+.container{
+    position: relative;
+}
+.main-img{
+    position: absolute;
+    top: 0;
+    right: -60px;
+    max-width: 50%;
+    
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    margin-bottom: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.social-icons a {
+    font-size: 2rem; /* حجم الأيقونات */
+    margin-right: 10px; /* تباعد بين الأيقونات */
+    color: #393939; /* لون الأيقونات */
+    display:inline-block ;
+    transform: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+     transform: scale(1.2);
+    color: #007bff; /* لون الأيقونة عند التحويم */
+}
+.social-icons a.whatsapp:hover {
+    color: #0f0; /* لون الأيقونة عند التحويم */
+}
+.social-icons a.google:hover {
+    color: rgb(201, 18, 18); /* لون الأيقونة عند التحويم */
+}
+
