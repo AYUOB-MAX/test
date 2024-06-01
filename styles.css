@@ -5,7 +5,7 @@ html,body {
 
 
 header {
-    margin-bottom: 1px;
+    margin-bottom: 0.2px;
     width: 100%;
 }
 
@@ -127,5 +127,21 @@ footer {
 }
 .social-icons a.google:hover {
     color: rgb(201, 18, 18); /* لون الأيقونة عند التحويم */
+}
+
+@media  (min-width:375px) 
+{
+    .circle-image{
+        width:  135%; /* يمكن تغيير الحجم كما تريد */
+        height: 70%; /* يمكن تغيير الحجم كما تريد */
+        right: 25%;
+    }
+    .main h2 span{
+        font-size: 1.9em;
+    }
+
+}
+@media () {
+    
 }
 
