@@ -102,6 +102,126 @@ section {
     
 }
 
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #00e0ff;
+}
+
+.skill p {
+    color: #f4f3f3;
+    margin: 0;
+}
+
+.progress {
+    background-color: #282727;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background-color: #00e0ff;
+}
+
+.circle-skill {
+    margin-bottom: 30px;
+}
+
+#skills-section {
+    background-color: #2a2e34; /* أو يمكنك استخدام background-image هنا */
+    background-size: cover; /* لجعل الخلفية تغطي القسم بالكامل */
+    width: 100%; /* تغطي عرض الشاشة بالكامل */
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; /* للتأكد من أن الهوامش والحشوات لا تؤثر على العرض */
+}
+
+#skills-section .col-md-6 {
+    margin-bottom: 30px; /* Adjust the value as needed */
+}
+#skills-section h3 {
+    margin-top: 40px; /* Adjust the value as needed */
+    margin-bottom: 30px; /* Adjust the value as needed */
+    color: #faf7f7;
+
+}
+.circle-skill p{
+    color: #ffffff;
+}
+.kw{ 
+    color: #fefcfc;
+}
+.ml-2{
+    padding-left: 240px;
+}
+.skills-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#skills-section .skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* لضمان أن العناصر تتوزع بشكل مناسب على الأحجام الصغيرة */
+}
+
+:root {
+    --second-bg-color: #282727;
+    --circle-border-width: 10px; /* سمك الخط */
+    --circle-blue-color: #00e0ff; /* لون الأزرق */
+    --circle-number-color: #ecf1f1; /* لون الرقم */
+    
+
+}
+س
+
+.circle-skill {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: var(--circle-border-width) solid var(--second-bg-color);
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(
+        var(--circle-blue-color) calc(var(--percentage) * 1%), 
+        var(--second-bg-color) calc(var(--percentage) * 1%)
+    );
+}
+    
+
+.circle[data-percentage="90"] {
+    --percentage: 0.9;
+    
+}
+
+.circle[data-percentage="80"] {
+    --percentage: 0.8;
+}
+
+.circle[data-percentage="70"] {
+    --percentage: 0.7;
+}
+
+.circle[data-percentage="55"] {
+    --percentage: 0.55;
+}
+
+.circle .percentage {
+    color: var(--circle-number-color); /* لون الرقم */
+    font-size: 18px;
+    position: absolute;
+   }
 section {
     margin-bottom: 40px;
 }
@@ -131,7 +251,7 @@ footer {
     color: rgb(201, 18, 18); /* لون الأيقونة عند التحويم */
 }
 
-@media  (max-width:512px) 
+@media  (max-width:760px) 
 {
     .circle-image{
         width:  136%; /* يمكن تغيير الحجم كما تريد */
@@ -140,6 +260,9 @@ footer {
     }
     .main h2 span{
         font-size: 1.86em;
+    }
+    .ml-2{
+        padding-left: 0px;
     }
 
 }
